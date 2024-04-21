@@ -25,7 +25,9 @@
 
 ### 상품 조회(메인 화면)
 1. 예매율이 높은 상품
-- 일정 기간 사람들이 많이 예매한 공연을 메인에 띄운다. (DB의 예매율 계산/[공연 정보 ](https://www.kopis.or.kr/por/cs/openapi/openApiList.do?menuId=MNU_00074&tabId=tab3_3) API 사용)
+- 일정 기간 사람들이 많이 예매한 공연을 메인에 띄운다. (DB의 예매율 계산 / [공연 정보 ](https://www.kopis.or.kr/por/cs/openapi/openApiList.do?menuId=MNU_00074&tabId=tab3_3) API 사용)
+
+  -> DB의 조인 사용 & 애매율 산출 -> 높은 순으로 조회
 2. 예매 오픈 임박 상품
 - 일정 기간 후 예매 가능한 공연을 메인에 띄운다.
 3. 관람 후기
