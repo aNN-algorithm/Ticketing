@@ -69,4 +69,5 @@
 ![js](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=spring&logoColor=white)
 
 # ERD 데이터 모델링
-<img width="671" alt="ERD" src="https://github.com/aNN-algorithm/Ticketing/assets/149382038/d88fd3d4-911e-45c8-a046-8988d2a28d15">
+![image](https://github.com/aNN-algorithm/Ticketing/assets/149382038/4a650ba4-ef47-43ce-b2b8-fe519916cfbf)
+
