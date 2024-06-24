@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.ticketing.domain.Review;
-import zerobase.ticketing.domain.ShowOpen;
-import zerobase.ticketing.repository.ReviewRepository;
-import zerobase.ticketing.repository.ShowOpenRepository;
-import zerobase.ticketing.service.ReviewService;
-import zerobase.ticketing.service.ShowOpenService;
+import zerobase.ticketing.domain.review.entity.Review;
+import zerobase.ticketing.domain.show.entity.ShowOpen;
+import zerobase.ticketing.domain.review.repository.ReviewRepository;
+import zerobase.ticketing.domain.show.repository.ShowOpenRepository;
+import zerobase.ticketing.domain.review.service.ReviewService;
+import zerobase.ticketing.domain.show.service.ShowOpenService;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

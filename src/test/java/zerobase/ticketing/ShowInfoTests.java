@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.ticketing.domain.ShowInfo;
-import zerobase.ticketing.repository.ShowInfoRepository;
+import zerobase.ticketing.domain.show.entity.ShowInfo;
+import zerobase.ticketing.domain.show.repository.ShowInfoRepository;
 
 import java.time.LocalDate;
 

@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.ticketing.domain.Place;
-import zerobase.ticketing.repository.PlaceRepository;
-import zerobase.ticketing.service.PlaceService;
+import zerobase.ticketing.domain.place.entity.Place;
+import zerobase.ticketing.domain.place.repostitory.PlaceRepository;
+import zerobase.ticketing.domain.place.service.PlaceService;
 
 import java.util.Arrays;
 import java.util.List;

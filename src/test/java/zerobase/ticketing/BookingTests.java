@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.ticketing.domain.Booking;
-import zerobase.ticketing.repository.BookingRepository;
-import zerobase.ticketing.service.BookingService;
+import zerobase.ticketing.domain.booking.entity.Booking;
+import zerobase.ticketing.domain.booking.repository.BookingRepository;
+import zerobase.ticketing.domain.booking.service.BookingService;
 
 import java.time.LocalDate;
 import java.util.List;

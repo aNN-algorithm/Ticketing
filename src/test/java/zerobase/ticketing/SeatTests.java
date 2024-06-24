@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.ticketing.domain.Seat;
-import zerobase.ticketing.repository.SeatRepository;
-import zerobase.ticketing.service.SeatService;
+import zerobase.ticketing.domain.user.entity.Seat;
+import zerobase.ticketing.domain.seat.repository.SeatRepository;
+import zerobase.ticketing.domain.seat.service.SeatService;
 
 import java.util.Arrays;
 import java.util.List;
